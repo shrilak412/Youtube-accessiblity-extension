@@ -44,6 +44,8 @@ Future Improvements
 Support for More Accessibility Features: Add features like adjusting text size or color contrast for better visibility.
 Platform Support: Expand the extension to work on other video platforms like Vimeo or Dailymotion.
 Advanced Audio Descriptions: Implement a more advanced speech recognition model for generating richer audio descriptions.
+![image](https://github.com/user-attachments/assets/c67e4e4d-fef9-421d-abf2-bad146864afa)
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
