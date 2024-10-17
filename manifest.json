@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Accessibility Features",
+    "version": "1.0",
+    "description": "Adds accessibility features like closed captions and audio descriptions to YouTube videos.",
+    "permissions": ["activeTab", "storage", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  
